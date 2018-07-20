@@ -701,7 +701,7 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
 {
   outline:none;
   cursor: pointer;
-  opacity: 100%;
+  opacity: 1;
   z-index: 3;
   /* transform: none; */
   /* transform: translate(-100%, 0); */

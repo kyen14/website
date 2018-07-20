@@ -616,7 +616,7 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
 
 #TOC {
   position:absolute;
-  will-change: transition;
+  /* will-change: transition; */
 }
 
 /* #ul {
@@ -639,12 +639,13 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
 
-   transform-origin: 0% 0%;
+   /* transform-origin: 0% 0%;
    transform: translate(-100%, 0);
 
-   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+   transition: transform 0s cubic-bezier(0.77,0.2,0.05,1.0); */
+   opacity: 0%;
    overflow: auto;
-   z-index:3;
+   z-index:-1;
  }
 
  #TOC ul li {
@@ -700,7 +701,9 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
 {
   outline:none;
   cursor: pointer;
-  transform: none;
+  opacity: 100%;
+  z-index: 3;
+  /* transform: none; */
   /* transform: translate(-100%, 0); */
   /* transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0); */
 }

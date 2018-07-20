@@ -639,7 +639,7 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
    transform: translate(-100%, 0);
 
    /* transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); */
-
+   transition-delay: 0.5s;
    overflow: auto;
    z-index:3;
  }
@@ -699,7 +699,7 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
   cursor: pointer;
   transform: none;
   /* transform: translate(-100%, 0); */
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 @media (max-width: 760px) {

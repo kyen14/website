@@ -639,15 +639,9 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
 
-   /* transform-origin: 0% 0%;
-   transform: translate(-100%, 0);
-
-   transition: transform 0.5s; */
-   /* cubic-bezier(0.77,0.2,0.05,1.0) */
-
    opacity: 0;
    visibility: hidden;
-   transition: visibility 0.5s;
+   transition: visibility 2s;
    overflow: auto;
    z-index:-1;
  }
@@ -707,9 +701,6 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
   opacity: 1;
   z-index: 3;
   visibility: visible;
-  /* transform: none; */
-  /* transform: translate(-100%, 0); */
-  /* transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0); */
 }
 
 @media (max-width: 760px) {

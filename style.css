@@ -619,9 +619,9 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
   will-change: transition;
 }
 
-#ul {
+/* #ul {
   transform: translate(-100%, 0);
-}
+} */
 
 #TOC ul {
    border:1px solid #eee;
@@ -696,12 +696,7 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
     cursor: pointer;
 }
 
-#menuToggle a.toggle:focus ~ #ul {
-  transform: none;
-  /* transition: transform 0.5s; */
-}
-
-#menuToggle a.toggle:focus ~ #ul ~ ul
+#menuToggle a.toggle:focus ~ ul
 {
   outline:none;
   cursor: pointer;
@@ -709,8 +704,6 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
   /* transform: translate(-100%, 0); */
   /* transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0); */
 }
-
-
 
 @media (max-width: 760px) {
   #TOC {

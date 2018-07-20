@@ -658,7 +658,7 @@ code > span.in { color: #93A1A1; font-weight: normal; font-style: italic; } /* I
 #TOC ul li a
 {
   font-size: 1.3rem;
-  /* transition: color 0.3s ease; */
+  transition: color 0.3s ease;
 }
 
 #TOC a.toggle {
